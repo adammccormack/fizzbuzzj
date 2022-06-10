@@ -1,7 +1,6 @@
 // For: src/main/java/FizzBuzz.java
 public class FizzBuzz {
     public static void main(String[] args) {
-        fizzBuzz(15);
     }
     public static void fizzBuzz(int n) {
         for (int i = 1; i <= n; i++) {
@@ -12,7 +11,7 @@ public class FizzBuzz {
             } else if (i % 5 == 0) {
                 System.out.println("Buzz");
             } else {
-                System.out.println(n);
+                System.out.println(i);
             }
         }
     }
